@@ -1,5 +1,3 @@
-function sayHello(name) {
-	console.log("Hello" + name);
-}
-
-sayHello("Jiahua");
+function a(){return 2;}
+let b = a();
+console.log(b());

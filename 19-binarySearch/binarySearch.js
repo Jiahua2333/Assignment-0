@@ -5,6 +5,10 @@ class MySolution {
 
   binarySearch(nums, target) {
     // Insert code here;
+      for (let i = 0; i <= nums.length; i++) {
+          if (nums[i] == target) return this.flag = true;
+      }
+      return this.flag;
   }
 }
 
